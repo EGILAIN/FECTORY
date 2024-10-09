@@ -28,7 +28,7 @@ def load_delimiters(file_path):
     return delimiters
 
 # Chemin d'accès au fichier delimiters.txt
-file_path = r'C:\Users\E.Gilain\Desktop\Nexia SA Technology\FECTORY\2. application\3. assets\delimiters.txt'
+file_path = os.path.join(os.getcwd(), "assets", "delimiters.txt")
 
 # Charger les délimiteurs depuis le fichier
 DELIMITERS = load_delimiters(file_path)
@@ -43,8 +43,8 @@ def load_css(file_path):
 
 def main():
     # Chemin complet du fichier CSS
-    css_file_path = r"C:\Users\E.Gilain\Desktop\Nexia SA Technology\FECTORY\2. application\3. assets\styles.css"
-    
+    css_file_path = os.path.join(os.getcwd(), "assets", "styles.css")
+
     # Charger le CSS
     load_css(css_file_path)
 
@@ -107,7 +107,7 @@ def show_home():
     </div>
     """, unsafe_allow_html=True)
 
-    file_path = r"C:\Users\E.Gilain\Desktop\Nexia SA Technology\FECTORY\2. application\3. assets\texte de présentation.txt"
+    file_path = os.path.join(os.getcwd(), "assets", "texte de présentation.txt")
 
     try:
         with open(file_path, "r", encoding="utf-8") as file:
@@ -244,7 +244,7 @@ def compile_data():
 
 def display_format_matrix(df, title):
     # Chemin vers le fichier texte contenant les formats de colonnes
-    file_path = r"C:\Users\E.Gilain\Desktop\Nexia SA Technology\FECTORY\2. application\3. assets\format colonne.txt"
+    file_path = os.path.join(os.getcwd(), "assets", "format colonne.txt")
 
     # Lire le fichier texte pour obtenir les formats attendus
     try:
@@ -623,20 +623,6 @@ def calculate_balances(df):
         st.write(f"**Solde total (Montant)**: {total_balance:,.2f}")
     else:
         st.error("Les colonnes 'Solde' et 'Montant' ne sont pas disponibles dans les données sélectionnées.")
-
-def check_column_anomalies(df, column_name, date_min, date_max):
-    """
-    Compare les dates dans la colonne spécifiée avec les bornes définies (date_min et date_max).
-    Renvoie les anomalies ou un message d'erreur si les dates ne sont pas au bon format.
-    """
-    try:
-        # Comparer les dates en texte avec les bornes définies pour une colonne spécifique
-        anomalies = df[(df[column_name] < date_min) | (df[column_name] > date_max)]
-        return anomalies
-    except TypeError:
-        # Afficher un message d'erreur si les dates ne sont pas au bon format
-        st.error("Les données date ne sont pas au bon format, veuillez les transformer au format texte dans l'onglet Préparer mes données.")
-        return pd.DataFrame()  # Retourne un DataFrame vide si une erreur est rencontrée
 
 def reset_data():
     st.session_state.dataframes = {
