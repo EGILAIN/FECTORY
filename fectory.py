@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import smtplib
 import datetime
+pip install plotly
 import plotly.graph_objects as go
 import os
 from email.mime.text import MIMEText
