@@ -107,7 +107,7 @@ def show_home():
     </div>
     """, unsafe_allow_html=True)
 
-    file_path = os.path.join(os.getcwd(), "texte de présentation.txt")
+    file_path = "/app/FECTORY/texte de présentation.txt"
 
     try:
         with open(file_path, "r", encoding="utf-8") as file:
