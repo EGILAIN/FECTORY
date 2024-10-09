@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import smtplib
 import datetime
-pip install plotly
-import plotly.graph_objects as go
 import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -625,81 +623,6 @@ def calculate_balances(df):
         st.write(f"**Solde total (Montant)**: {total_balance:,.2f}")
     else:
         st.error("Les colonnes 'Solde' et 'Montant' ne sont pas disponibles dans les données sélectionnées.")
-
-def analyze_date_columns(df):
-    # Ajouter un titre au-dessus du volet "Analyse des dates"
-    st.sidebar.markdown("## Analyse des dates")
-
-    # Utiliser st.expander pour regrouper les modules sous un même volet, par défaut fermé
-    with st.sidebar.expander("Paramètres d'analyse des dates", expanded=False):
-        st.subheader("Définir la période d'exercice")
-        exercise_start_date = st.date_input("Date de début d'exercice", value=datetime.date(datetime.date.today().year, 1, 1), key='exercise_start_date')
-        exercise_end_date = st.date_input("Date de fin d'exercice", value=datetime.date(datetime.date.today().year, 12, 31), key='exercise_end_date')
-
-        # Convertir les dates d'exercice en format aaaammjj
-        exercise_start = exercise_start_date.strftime('%Y%m%d')
-        exercise_end = exercise_end_date.strftime('%Y%m%d')
-
-        st.subheader("Paramétrer l'analyse des colonnes de date")
-
-        # Widget calendrier pour sélectionner les bornes de EcritureDate
-        ecriture_min_date = st.date_input("Date minimale pour EcritureDate", value=exercise_start_date, key='ecriture_min_date')
-        ecriture_max_date = st.date_input("Date maximale pour EcritureDate", value=exercise_end_date, key='ecriture_max_date')
-
-        # Convertir les dates en format aaaammjj
-        ecriture_min = ecriture_min_date.strftime('%Y%m%d')
-        ecriture_max = ecriture_max_date.strftime('%Y%m%d')
-
-        # Widget calendrier pour sélectionner les bornes de PieceDate
-        piece_min_date = st.date_input("Date minimale pour PieceDate", value=exercise_start_date, key='piece_min_date')
-        piece_max_date = st.date_input("Date maximale pour PieceDate", value=exercise_end_date, key='piece_max_date')
-
-        # Convertir les dates en format aaaammjj
-        piece_min = piece_min_date.strftime('%Y%m%d')
-        piece_max = piece_max_date.strftime('%Y%m%d')
-
-        # Widget calendrier pour sélectionner les bornes de ValidDate
-        valid_min_date = st.date_input("Date minimale pour ValidDate", value=exercise_start_date, key='valid_min_date')
-        valid_max_date = st.date_input("Date maximale pour ValidDate", value=exercise_end_date, key='valid_max_date')
-
-        # Convertir les dates en format aaaammjj
-        valid_min = valid_min_date.strftime('%Y%m%d')
-        valid_max = valid_max_date.strftime('%Y%m%d')
-
-        # Bouton pour lancer l'analyse
-        if st.button("Analyser les dates"):
-            # Indiquer que les résultats doivent être affichés dans la vue principale
-            st.session_state.analyze_dates = True
-
-    # Afficher les résultats dans la vue principale si l'analyse est lancée
-    if st.session_state.get("analyze_dates", False):
-        st.subheader("Résultats de l'analyse des dates")
-        
-        # Analyser chaque colonne de date séparément
-        ecriture_anomalies = check_column_anomalies(df, 'EcritureDate', ecriture_min, ecriture_max)
-        piece_anomalies = check_column_anomalies(df, 'PieceDate', piece_min, piece_max)
-        valid_anomalies = check_column_anomalies(df, 'ValidDate', valid_min, valid_max)
-
-        if not ecriture_anomalies.empty:
-            st.write(f"Anomalies pour EcritureDate : {len(ecriture_anomalies)} lignes")
-            st.dataframe(ecriture_anomalies)
-        else:
-            st.write("Aucune anomalie détectée pour EcritureDate.")
-
-        if not piece_anomalies.empty:
-            st.write(f"Anomalies pour PieceDate : {len(piece_anomalies)} lignes")
-            st.dataframe(piece_anomalies)
-        else:
-            st.write("Aucune anomalie détectée pour PieceDate.")
-
-        if not valid_anomalies.empty:
-            st.write(f"Anomalies pour ValidDate : {len(valid_anomalies)} lignes")
-            st.dataframe(valid_anomalies)
-        else:
-            st.write("Aucune anomalie détectée pour ValidDate.")
-
-        # Réinitialiser l'état pour ne pas réafficher automatiquement les résultats
-        st.session_state.analyze_dates = False
 
 def check_column_anomalies(df, column_name, date_min, date_max):
     """
