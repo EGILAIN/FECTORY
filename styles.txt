@@ -1,0 +1,46 @@
+/* styles.css */
+div.stButton > button:first-child {
+    background-color: #00323c;
+    color: white;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white; /* Ajout de la bordure blanche */
+}
+
+div.stButton > button:hover {
+    background-color: #009900;
+    border: 2px solid white; /* Maintenir la bordure blanche au survol */
+}
+
+div.stButton.red > button:first-child {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white; /* Ajout de la bordure blanche */
+}
+
+div.stButton.red > button:hover {
+    background-color: darkred;
+    border: 2px solid white; /* Maintenir la bordure blanche au survol */
+}
+
+/* Style spécifique pour le bouton "Réinitialiser les données" */
+div.stButton > button:focus {
+    background-color: #4EA72E !important;
+    color: #000000 !important;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white; /* Ajout de la bordure blanche */
+}
+
+div.stButton > button:active {
+    background-color: #3A8E24 !important;
+    border: 2px solid white; /* Maintenir la bordure blanche au clic */
+}

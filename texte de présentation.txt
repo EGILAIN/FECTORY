@@ -1,0 +1,19 @@
+>
+ 
+<strong>Fonctionnalités de l'application<strong>
+
+><strong>Charger mes données<strong>
+
+Cette fonctionnalité permet aux utilisateurs de charger leurs fichiers de données dans l'application pour une analyse ultérieure. Elle supporte différents formats de fichiers comme CSV, TXT, XLSX, et XLS. Les utilisateurs peuvent sélectionner le délimiteur approprié pour assurer une bonne interprétation des données. Il y a aussi des options pour charger des données supplémentaires comme des écritures statutaires ou des a-nouveaux, selon les besoins de l'utilisateur. <span style="color: orange;">Cela offre une flexibilité maximale dans la gestion des entrées de données.</span>
+
+><strong>Préparer mes données<strong>
+
+Après le chargement des données, cette section offre aux utilisateurs la possibilité de vérifier et de modifier les formats des données pour correspondre aux exigences de traitement spécifiques. Les utilisateurs peuvent visualiser les formats actuels et ajuster les colonnes selon les types nécessaires (texte, numérique, date). <span style="color: orange;">Cette étape est cruciale pour s'assurer que les données sont correctement formatées pour l'analyse, permettant des opérations telles que la création de nouvelles colonnes basées sur des conditions logiques pour une analyse financière plus détaillée.</span>
+
+><strong>Analyser mes données<strong>
+
+Cette section de l'application permet aux utilisateurs de réaliser des analyses approfondies sur les données chargées et préparées. Elle offre des fonctionnalités telles que l'agrégation de données et la création de tableaux croisés pour résumer les informations. <span style="color: orange;">Les utilisateurs peuvent choisir des colonnes spécifiques pour l'agrégation et visualiser la balance générale en format wide screen pour une meilleure lisibilité. Un bouton supplémentaire permet également de calculer le solde total des comptes, fournissant des insights financiers instantanés.</span>
+
+><strong>Contacter l'équipe data<strong>
+
+Cette fonctionnalité offre un moyen direct de communication avec l'équipe data pour un support ou des requêtes supplémentaires. Que ce soit pour des questions techniques, des suggestions d'amélioration, ou des demandes de nouvelles fonctionnalités, les utilisateurs peuvent facilement entrer en contact avec l'équipe en charge du développement et de la maintenance de l'application. <span style="color: orange;">Cela assure un support continu et aide à améliorer l'application en fonction des retours des utilisateurs.</span>

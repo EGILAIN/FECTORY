@@ -1,0 +1,43 @@
+/* styles.css */
+div.stButton > button:first-child {
+    background-color: #00323c;
+    color: white;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+div.stButton > button:hover {
+    background-color: #009900;
+}
+
+div.stButton.red > button:first-child {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+div.stButton.red > button:hover {
+    background-color: darkred;
+}
+
+/* Style spécifique pour le bouton "Réinitialiser les données" */
+div.stButton.reset > button {
+    background-color: #4EA72E !important;
+    color: #000000 !important;
+    font-size: 20px;
+    height: 3em;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+div.stButton.reset > button:hover {
+    background-color: #3A8E24 !important;
+}

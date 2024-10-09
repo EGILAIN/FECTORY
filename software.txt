@@ -1,0 +1,73 @@
+SANGARE ABDOULAYE;Agiris;RCA;Coala;Sage;Ciel comptabilité;Tableur (Excel);Microsoft Office
+NAWEL AIT ALI;SAP;Qlik;Backend;Pipedrive
+URIEL ALIMI;Pack Office;Sage générations Experts;Pennylane;SAP
+JEAN ARMEL;SAP (FI, MM);SAGE 100,1000 ;Exce;Coda Xl;Matisse ;OBIEE HPALM
+PIERRE AUXETTE;Excel;Power BI;Python;SQL;Big Query;Pack office
+VÉRONIQUE BARRERE;SAGE;SAP (100 et 1000);Navision;BPC;Excel (TCD et macros);Word 
+SAMIA BERGONION;JDE;SAP;Navision;SAGE (compta, Paye, Immobilisation FA7, Moyens de paiements, facturation, trésorerie);Cegid;ETAFI;OKAPI;Pack Office
+CLARA BOTBOL;Sage;Segid;Pack office
+ZAKARIA BOUCHAMA;
+RITA BOULTAME;Sage Compta;Sage RH;Eurecia;Chorus
+RATIBA C;Logiciels bancaires et ERP;Pack Office
+CELINE CORVISIER;
+GUILLAUME DAMASSE;Audisoft; Datastream;Bases surBO;SAP;SAP-BFC; Smartview;Pack OFFICE
+BENGALY DIAOUNE;SAP, Microsoft (Excel, Word, Access), Ciel Compta, Immo, Paye, Cegid Expert
+PEGGY DJOULOU;EIC;SAP;Coda;Oracle;JD Edwards;Sage (ligne 1 000);Abel;Etafi Decisiv;Serventissimmo;MFG Pro;Magnitude;RH Paye
+STÉPHANE DUFFOUR;
+KARINE DUMUR;SAP;AS400;SAGE;HYPERION;QUALIAC;CEGID;Via Report;Business Object;Qlik Sense
+TARIL EL MACHARFI;COALA- SAGE;CEGID;YOOZ;RCA;IBIZA;Ciel;COT TNS;outil CAC – CNCC. Microsoft – Office Excel;Word
+ELSY FASSINOU;SAGE;CCMX;Quadratus;Coala;Pack Office
+SANDRINE FEUDJEU;SAP;Word;Excel ;Ikos;Quadra;Sage 100;Sage 1000;Sage coala;ciel comptabilité;ICS;Thétrawin;IPH;Infass;Magnitude
+LIONEL GARNIER-DENIS;
+STÉPHANIE GAZZAH;LUCCA;SILAE;BAMBOO RH;QUADRA;CIEL;CEGID PAIE;PAYFIT;INEXPAIE;INEX RH
+XAVIER GERARD;Sage;Cegid;Infologic;Amelkis;Magnitude;CFB Opera;Etafi;Python;Pandas;SQL;Tableau;Matplotlib;Salesforce;Netusite;Kimble;Odoo;Jedox;Infologic;Yooz;Proactis;ADP;Excel;Powerpoint
+ANGELIQUE GHYSELS;SAGE 1000;Sage 100;SAP;Pegase;CEGID;Coala;PeopleSoft;Myunisoft;Pennylane;Pack Office
+XAVIER GIRARD;Sage;Cegid;Infologic;Amelkis;Magnitude;CFP Opera;Etafi;SalesForce;Netusite; Kimble;Odoo;Jedox;Infologic;Yooz;Proactis;ADP
+LOUIS GODET;
+THOMAS GOUEN;SAP;Sidetrade;Taïga;Sales to cash;Power BI;Pack Office 
+TANITA GREENDHARY;Pack Office;Google Suite;Workday;Nibelis;SAP;Cegid;Place de la formation
+SÉBASTIEN GUBLER;Access;AS400;ERP;Business Object;Pack Office
+MICHEL HENRY;
+PITHAGORE HOUENON;Auditsoft;Cegid;ACD;Ciel;SAGE ;Netsuite;Workday;Pack Office
+HAIRIA IBRAHIM;SAP;BFC;Power BI;Quickbooks;SAP BRIM ;Harvest
+RACHIDA IZEM;SAP;Pack Office;Cegid;Compta First;Sage Coala;Dolibarr;Crypto;DIA Expert;EBP Paie Expert;SIFAC;ASTRE;ADP;Ciel;SIREPA;AlfaGrh
+BÉATRICE JAVELLE;SAP;Oracle EBS;
+DIGDEM KECELI;Excel;Pack Office;SAGE;CIEL
+CENK KESKINKILIC;Word;Excel;Power Point;Access 
+BRICE KOFFI;Sage 200;Odoo;Tally;Dolibarr;Quickbooks;Maconomy;Pack Office;Gsheet;Airtable;Power BI (débutant);Pack EBP;Suite Ciel;SAP BFC;Coda Financial;Oracle;As400;Servantissimo
+DREY KOKOLO;Pack Office;SAP;Oracle
+VIRGINIE KOTCHI;SAP;Sage;Cegid;Etafi;Pack Office
+DAVID KRIEF;SAP;CEGID;FULLL;Pack Office
+ERDEM KULAKSIZ;SQL;UNIX;Orchestrade;Summit;Markitwire;Control-M;V-Tom;EAI;EFIRA
+HORTENSE L;SAP FC (magnitude);HFM;SAP BPC
+MAXIME LE BARON;SAP;Pack Office 
+TONG-SHU LU;
+NADIA LUX;SILAE;CEGID RH;NIBELIS;HOROQUARTZ;BODET KELIO
+OLIVIA MANCHAUD BENJAMIN;SAP DiCO & Bw;BFC (liasses conso);Pack Office
+OLIVIA MAPAZEDE;EXCEL;Pack Office;CIEL COMPTA;SAGE;CEGID;AS400;COMPTA-FIRST;QUADRATUS;;RECEIPT BANK;SAP - ERP
+ULYANA MARKIV;Cegid Expert ;NetSuite ;Sage 100 ;Gamme Cogilog ;Pack Office ;SAP & SAP BI ;Blackline
+DICKAYOKA MENDY;SAGE;Pack Office 
+KATARINA MLYNARIKOVA;SAP;Business Objects;Navision;M3;Pack Office;système de facturation
+GUILLAUME MORAIS;Sage compta;SAP;Navision;Cegid Optim IS;Excel 
+BASITALY MOUGAMADOUBOUGARY;
+GUILLAUME MOULIN;SAP;Oracle;IKOS;Cegid;Sage;Hyperion;Workday;Pack Office
+EBENEZER MOUSSIO MOUELLE;SAP;Quadratus;Cedig;Power BI;BOFC
+RAJAA OUACHIKN;Chorus;Pack Office;systèmes de facturation CRM;SAP;Business Objects
+CYRIL PETZCA;SAP;People Soft;Oracle;Sage;Coala;ECF;SAP BFC;COGNOS;BPC;Unison
+MAYER RAJCHMAN;SAGE;ISA compta;Pennylane;Coala;Suite Office
+CELINE RHODES;Sage 100;Cegid;Ibiza;Tiime;Cleemy;Manatime;Poplee;SAP Concur;Dest;Silae
+OLABIYI ROMYLUX;EXCEL;Pack Office;SAP;SIG;PHENIX;SIPS;AX DYNAMICS;KYRIBA;AX NAVISION;EXALOG;SAGE;SAGE X3;CODA;SAREC;CHORUS;AS400;BASWARE
+AMADOU S;SAP;Quadratus;Python;Htlm+css;API REST;Web3;Silae;Pack Office
+MAMADOU S;Word;excel;Workday;Oracle;SAP
+ABDOULAYE SANGARE;Agiris;RCA;Coala;Sage;Ciel comptabilité;Tableur (Excel);Microsoft Office
+MAJDOULINE SOUABI;Cegid expert;Sage;Comptacom;Robocompta;Ciel Paye
+CÉDRIC STUCKY;SAP;People Soft;Hyperion;Qick View
+PATRICIA THEYS;Pack Office;ORACLE;Talentia;SAGE;PEOPLESOFT;P2P;BASWARE;YOOZ;ITESOFT;PRAXEDO
+VINCENT TREHOUX;SAP (R;3 - ECC6 - S;4);SAGE;Cegid;Pack Office
+JEAN-VIANNEY VAILLANT;EXCEL;SAP;Hyperion;Quadratus;Opale Or;AS 400
+YANN VOLLUZ;Sage;Pack Office;SalesForce;Yooz
+JIHANE YADANE;Sage;Pack Office;SalesForce;Yooz
+SANDRA YON;MS Office (Excel;Word;Access;Power Point);SAP;Sage 1000;Workday;Quadratus;Sage 100;Ciel;Docuware;Zeendoc;Itesoft
+ALICE ;Pack Office 
+CHRISTELLE FIOT PAPAIN;
+NADINE BARDAK;
