@@ -28,7 +28,7 @@ def load_delimiters(file_path):
     return delimiters
 
 # Chemin d'accès au fichier delimiters.txt
-file_path = os.path.join(os.getcwd(), "assets", "delimiters.txt")
+file_path = os.path.join(os.getcwd(), "delimiters.txt")
 
 # Charger les délimiteurs depuis le fichier
 DELIMITERS = load_delimiters(file_path)
@@ -43,7 +43,7 @@ def load_css(file_path):
 
 def main():
     # Chemin complet du fichier CSS
-    css_file_path = os.path.join(os.getcwd(), "assets", "styles.css")
+    css_file_path = os.path.join(os.getcwd(), "styles.css")
 
     # Charger le CSS
     load_css(css_file_path)
@@ -244,7 +244,7 @@ def compile_data():
 
 def display_format_matrix(df, title):
     # Chemin vers le fichier texte contenant les formats de colonnes
-    file_path = os.path.join(os.getcwd(), "assets", "format colonne.txt")
+    file_path = os.path.join(os.getcwd(), "format colonne.txt")
 
     # Lire le fichier texte pour obtenir les formats attendus
     try:
